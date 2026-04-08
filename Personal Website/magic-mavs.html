@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Mavs | Noah Hayes</title>
+  <meta
+    name="description"
+    content="Magic Mavs project page featuring a description, date, genre, placeholder gallery, and video slot."
+  >
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="magic-mavs">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <!-- <span class="brand-mark">NH</span> -->
+        <img src="assets/images/player.png" alt="Noah Hayes" class="profile-pic">
+        <span class="brand-text">
+          <strong>Noah Hayes</strong>
+          <span>Game Developer/Programmer</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="magic-mavs.html">Magic Mavs</a>
+        <a href="health-care-navigation.html">Health Care Navigation</a>
+        <a href="cubical-chaos.html">Cubical Chaos</a>
+      </nav>
+    </header>
+
+    <main class="project-page">
+      <section class="project-hero reveal">
+        <div class="project-hero-copy">
+          <p class="eyebrow">Featured Project</p>
+          <h1>Magic Mavs</h1>
+          <div class="project-details">
+            <span>Genre: Augmented Reality Action/Adventure Game</span>
+            <span>Developed: August 2024</span>
+          </div>
+          <p class="project-description">
+            Magic Mavs is an AR Action/Adventure Game set on the University of Texas at Arlington
+            campus. The game follows a student who lives in a world where humans and mavericks,
+            also known as blazes, coexist together. The student is tasked by the leaders of the
+            Basement of the UTA Central Library to find hidden blazes in horse statues all over
+            campus and befriend them to join the journey.
+          </p>
+          <a class="button button-primary" href="index.html#projects">Back to homepage</a>
+        </div>
+
+        <img
+          class="project-hero-image-magic-mavs"
+          src="assets/images/magicmavs.png"
+          alt="Magic Mavs placeholder hero art"
+        >
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>Gameplay Screenshots</h2>
+          <p>Demo screenshots for the Magic Mavs game in the early stages.</p>
+        </div>
+
+        <div class="media-grid media-grid-images">
+          <figure class="media-card reveal">
+            <img src="assets/images/magicmavsimg1.png" alt="Magic Mavs placeholder scene one">
+            <figcaption>Courtyard 1</figcaption>
+          </figure>
+          <figure class="media-card reveal">
+            <img src="assets/images/magicmavsimg2.png" alt="Magic Mavs placeholder scene two">
+            <figcaption>Courtyard 2</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Video</p>
+          <h2>Demo Video</h2>
+          <p>
+            This is a demo video showcasing the gameplay and environments of Magic Mavs.
+          </p>
+        </div>
+        
+        <div class="media-card media-card-video reveal">
+          <iframe
+            class="video-placeholder-object"
+            aria-label="Magic Mavs demo video"
+            src="assets\videos\magicmavsdemo.mp4"
+            title="Magic Mavs demo video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="current-year"></span> Noah Hayes. Game Developer Portfolio</p>
+    </footer>
+  </div>
+</body>
+</html>
